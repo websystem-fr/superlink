@@ -25,7 +25,7 @@ async function handleClick(event) {
       await context.sync();
       
       if (range.hyperlink && range.hyperlink.address) {
-        window.open(range.hyperlink.address, '_blank');
+        window.open(range.hyperlink.address, '_blank');  // Ouvre le lien dans un nouvel onglet
       }
     });
   } catch (error) {
